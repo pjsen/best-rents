@@ -29,7 +29,7 @@ Each page keeps the same URL it had on Wix (for example `/av-rental-request`), s
 python3 -m http.server 8000
 ```
 
-Then open http://localhost:8000. Links without `.html` work on GitHub Pages but not with this simple local server. Locally, open pages like `/av-rental.html` instead.
+Then open http://localhost:8000. Links without `.html` work on GitHub Pages but not with this simple local server, so locally, open pages like `av-rental.html` directly.
 
 ## Publish with GitHub Pages
 
@@ -37,7 +37,9 @@ Then open http://localhost:8000. Links without `.html` work on GitHub Pages but 
 2. On GitHub, go to **Settings → Pages**. Under **Build and deployment**, choose **Deploy from a branch**, then select `main` and `/ (root)`.
 3. After about a minute, the site is live at `https://<your-username>.github.io/<repo-name>/`.
 
-   Note: the site uses root-relative links (`/assets/...`), so it previews properly only at a domain root. That means a custom domain or a repository named `<username>.github.io`. If the github.io preview shows no styling, that's the cause, and it fixes itself once the custom domain is connected.
+   Pages may take a few minutes to appear the first time.
+
+   **The repository must be public** on a free GitHub account. GitHub Pages only works with private repositories on paid plans (Pro, Team or Enterprise).
 
 ## Move the domain from Wix to GitHub (do this last)
 
