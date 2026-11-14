@@ -96,13 +96,8 @@ ul { padding-left: 1.2em; }
 .site-header .container { display: flex; align-items: center; justify-content: space-between; height: 72px; }
 .brand { display: flex; align-items: center; gap: .6rem; color: var(--ink); font-weight: 750; font-size: 1.15rem; letter-spacing: -0.02em; }
 .brand:hover { text-decoration: none; }
-.brand-mark {
-  width: 36px; height: 36px; border-radius: 9px; background: var(--navy-900); color: #fff;
-  display: grid; place-items: center; font-size: .85rem; font-weight: 800; letter-spacing: 0;
-}
 .brand-logo { display: block; height: 44px; width: auto; max-width: 100%; }
 @media (max-width: 400px) { .brand-logo { height: 36px; } }
-.brand small { display: block; font-size: .7rem; font-weight: 500; color: var(--muted); letter-spacing: .02em; }
 
 .nav { display: flex; align-items: center; gap: .25rem; }
 .nav > a, .nav-dd > button {
@@ -356,7 +351,6 @@ textarea { min-height: 130px; resize: vertical; }
 .site-footer ul { list-style: none; padding: 0; margin: 0; }
 .site-footer li { margin-bottom: .5rem; }
 .site-footer .brand { color: #fff; margin-bottom: 1rem; }
-.site-footer .brand-mark { background: var(--blue-600); }
 .social { display: flex; gap: .6rem; margin-top: 1.25rem; }
 .social a { width: 38px; height: 38px; border-radius: 10px; background: rgba(255,255,255,.08); display: grid; place-items: center; }
 .social a:hover { background: rgba(255,255,255,.16); }
